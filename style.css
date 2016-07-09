@@ -1,2 +1,28 @@
-﻿body {
+﻿
+body{
+     width:90%;
+     margin:auto;
+        
+ }
+ .jumbotron{ background-color: #D2D2D2;
+               background-size:auto;
+               background-position: center center;
+                         
 }
+ .nav{
+     overflow: auto;
+    
+    
+     }
+ .nav,.feature,.footer{
+     margin: 1%;
+ }
+
+  h1{
+     font-family:Roboto, Helvetica, sans-serif;
+     letter-spacing: 20px;
+ }
+ li{
+     list-style-type: none;
+     display:inline ;
+ }
