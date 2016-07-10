@@ -1,35 +1,8 @@
 ﻿
-body{
-     line-height:1.8;
-        
- }
- .jumbotron{ background-color: #D2D2D2;
-               padding: 100px 25px; 
-               margin: 1%;              
+.jumbotron{ background-color: #D2D2D2;
+                            
 }
-   .container-fluid {
-      padding: 40px 30px;
-  }
-
- .navbar,.feature,.footer{
-     margin: 1%;
- }
- .navbar{
-     background-color:wheat;
-    
- }
- 
- .feature{
-     height: 40em;
-     margin-bottom: 2em;
-     background-image: url(Images/tusvillaros.jpg);
-     background-size:cover;
-     background-position:center center;
- }
- 
-
-
-  h1{
+ h1{
      font-family:Roboto, Helvetica, sans-serif;
      letter-spacing: 30px;
  }
@@ -37,19 +10,19 @@ body{
       font-family:Cookie, Helvetica, sans-serif;
       font-size:50px;
   }
-h3 {
-    font-family: Roboto, Helvetica, sans-serif;
-    font-size: 20px;
-    color: wheat;
-    text-align:center;
-}
- li{
+.navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+
+    }
+li{
      list-style-type: none;
      display: inline;
-     margin-right: 20px;
-     padding: 10px;
+     margin-right: 30px;
+   
  }
- 
- .prow1{
-     font-family: Roboto, Helvetica, sans-serif;
- }   
+    footer {
+      background-color: #E4E4E4;
+      padding: 25px;
+    }
+      
