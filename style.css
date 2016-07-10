@@ -1,28 +1,50 @@
-﻿
-.jumbotron{ background-color: #D2D2D2;
-                            
+﻿body{
+    font-family:Roboto, Helvetica, sans-serif;
 }
- h1{
-     font-family:Roboto, Helvetica, sans-serif;
-     letter-spacing: 30px;
- }
-  h2{
-      font-family:Cookie, Helvetica, sans-serif;
-      font-size:50px;
-  }
-.navbar {
-      margin-bottom: 50px;
-      border-radius: 0;
+.jumbotron {
+    background-color: #D2D2D2;
+}
 
-    }
-li{
-     list-style-type: none;
-     display: inline;
-     margin-right: 30px;
-   
- }
-    footer {
-      background-color: #E4E4E4;
-      padding: 25px;
-    }
-      
+.col-sm-8 {
+    height: 19em;
+    background-image: url("Images/tuscanysign.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.col-sm-4 {
+    height: 19em;
+    background-image: url("Images/mapoverlay.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+h1 {
+    font-family: Roboto, Helvetica, sans-serif;
+    letter-spacing: 30px;
+}
+
+h2 {
+    font-family: Cookie, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+}
+
+li {
+    font-family: Roboto,Helvetica, sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    display: inline;
+    margin-right: 50px;
+}
+
+footer {
+    background-color: #E4E4E4;
+    padding: 25px;
+}
